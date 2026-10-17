@@ -384,7 +384,7 @@ class SFTP {
         let testFilePath = normalizePath(path.join(app.sitesDir, siteName, 'input', 'publii.test'));
 
         client.connect(connectionSettings).then(() => {
-            return client.list('/');
+            return client.list('.');
         }).then(data => {
             fs.writeFileSync(testFilePath, 'It is a test file. You can remove it.');
 
