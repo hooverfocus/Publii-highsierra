@@ -84,7 +84,8 @@ cd ..
    official wiki gives for
    [improper node module versions](https://github.com/GetPublii/Publii/wiki/App-build-process#keytar-sharp-and-node-expat-node-modules-compilation),
    but it is needed every time here: `npm install` fetches the module for your
-   Node 22, and the app runs it inside Electron 26, which refuses it. Run:
+   Node 22, and the app runs it inside Electron 26, which refuses it (the default
+   download is built for your Node version and fails inside the app). Run:
 
 ```
 cd app/node_modules/better-sqlite3
