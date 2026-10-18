@@ -156,5 +156,5 @@ In this case the app appears in `dist/mac/`.
 
 ## Screenshot
 
-Launch screen shows Publii 0.46 patched to run on OSX 10.12.6 High Sierra
+Launch screen shows Publii 0.46 patched to run on OSX 10.13.6 High Sierra
 <img width="1000" height="563" alt="Publii-0 46-HS_screenshot" src="https://github.com/user-attachments/assets/1b872d8d-5020-4f0a-abc1-7b3d2216a39d" />
