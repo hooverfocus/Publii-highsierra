@@ -14,7 +14,7 @@
                 </p-button>
             </div>
 
-            <p class="about-version">{{ $t('publii.currentPubliiVersion') }}: {{ appVersion.version }} (build {{ appVersion.build }})</p>
+            <p class="about-version">{{ $t('publii.currentPubliiVersion') }}: {{ appVersion.version }} (build {{ appVersion.build }}) High Sierra</p>
 
             <fields-group>
                 <p class="about-copyright">

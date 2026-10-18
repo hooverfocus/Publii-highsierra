@@ -6,7 +6,7 @@
             </h1>
 
             <small class="version">
-                v.{{ version }} (build <span class="splashscreen-build">{{ build }}</span>)
+                v.{{ version }} (build <span class="splashscreen-build">{{ build }}</span>) High Sierra
             </small>
 
             <div
