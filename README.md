@@ -21,8 +21,10 @@ The app is not signed. The first time, right-click it and choose **Open**.
 
 ## What was tested
 
-macOS 10.13.6, Node 22.2.0 (custom build, see "Required software"),
-Electron 26.3.0. Tested: Block and WYSIWYG editors, saving, featured images,
+macOS 10.13.6, Node 22.2.0 (custom build, see "Required software" below),
+Electron 26.3.0. 
+
+Tested: Block and WYSIWYG editors, saving, featured images, images (jpg),
 galleries, preview, backups, SFTP connection test and a real sync with a
 password login.
 
@@ -140,6 +142,8 @@ A lighter alternative that only makes the `.app` folder:
 CSC_IDENTITY_AUTO_DISCOVERY=false ./node_modules/.bin/electron-builder --mac --dir -c.electronDist=node_modules/electron/dist
 ```
 
+In this case the app appears in `dist/mac/`.
+
 ## Not tested
 
 - SFTP login with an SSH key
@@ -149,3 +153,8 @@ CSC_IDENTITY_AUTO_DISCOVERY=false ./node_modules/.bin/electron-builder --mac --d
 ## Known issues
 
 - None known beyond the list above.
+
+## Screenshot
+
+Launch screen shows Publii 0.46 patched to run on OSX 10.12.6 High Sierra
+<img width="1000" height="563" alt="Publii-0 46-HS_screenshot" src="https://github.com/user-attachments/assets/1b872d8d-5020-4f0a-abc1-7b3d2216a39d" />
